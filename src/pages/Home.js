@@ -15,6 +15,21 @@ function Home() {
                 <li>AWS - S3, DynamoDB and Amplify</li>
                 <li>C++ (but very rusty)</li>
             </h3>
+            <h3>
+                {'\n'}
+                Books I've read recently: 
+                <li>Dune by Frank Herbert</li>
+                <li>A World Without Work by Daniel Susskind</li>
+                <li>Exciting Times by Naoise Dolan </li>
+                <li>This Naked Mind by Annie Grace </li>
+                <li>The Vanishing Half by Brit Bennett </li>
+                <li>Normal People by Sally Rooney </li>
+                <li>Conversations with Friends by Sally Rooney </li>
+                <li>Shuggie Bain by Douglas Stuart </li>
+                <li>The Rule of Logistics by Jesse Lecavlier </li>
+                <li>The Psycology of Money by Morgan Housel </li>
+                <li>The bin Ladens by Steve Coll </li>
+            </h3>
         </div>
     )
 }
