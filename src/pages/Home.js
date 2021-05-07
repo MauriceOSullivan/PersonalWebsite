@@ -28,7 +28,7 @@ function Home() {
                 <li>Shuggie Bain by Douglas Stuart </li>
                 <li>The Rule of Logistics by Jesse Lecavlier </li>
                 <li>The Psycology of Money by Morgan Housel </li>
-                <li>The bin Ladens by Steve Coll </li>
+                <li>The Bin Ladens by Steve Coll </li>
             </h3>
         </div>
     )
