@@ -19,18 +19,7 @@
 }
 
 .projects,
- .contact {
-  display: flex;
-  height: 90vh; 
-  align-items:center;
-  justify-content: center;
-  font-size: 1rem;
-  padding-left: 40px;
-  padding-right: 40px;
-  white-space: pre-line;
-}
-
-.London {
+ .contact,.london {
   display: flex;
   height: 90vh; 
   align-items:center;

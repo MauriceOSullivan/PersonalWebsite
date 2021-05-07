@@ -20,7 +20,7 @@ export const SidebarData = [
     },
     {
         title: "London Guide",
-        path: "/London",
+        path: "/london",
         icon: <SiLib.SiTransportforlondon />, 
         cName:'nav-text'
     },
