@@ -1,52 +1,46 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createTalk = /* GraphQL */ `
-  mutation CreateTalk(
-    $input: CreateTalkInput!
-    $condition: ModelTalkConditionInput
+export const createLondonPlace = /* GraphQL */ `
+  mutation CreateLondonPlace(
+    $input: CreateLondonPlaceInput!
+    $condition: ModellondonPlaceConditionInput
   ) {
-    createTalk(input: $input, condition: $condition) {
+    createLondonPlace(input: $input, condition: $condition) {
       id
-      clientId
       name
+      address
       description
-      speakerName
-      speakerBio
       createdAt
       updatedAt
     }
   }
 `;
-export const updateTalk = /* GraphQL */ `
-  mutation UpdateTalk(
-    $input: UpdateTalkInput!
-    $condition: ModelTalkConditionInput
+export const updateLondonPlace = /* GraphQL */ `
+  mutation UpdateLondonPlace(
+    $input: UpdateLondonPlaceInput!
+    $condition: ModellondonPlaceConditionInput
   ) {
-    updateTalk(input: $input, condition: $condition) {
+    updateLondonPlace(input: $input, condition: $condition) {
       id
-      clientId
       name
+      address
       description
-      speakerName
-      speakerBio
       createdAt
       updatedAt
     }
   }
 `;
-export const deleteTalk = /* GraphQL */ `
-  mutation DeleteTalk(
-    $input: DeleteTalkInput!
-    $condition: ModelTalkConditionInput
+export const deleteLondonPlace = /* GraphQL */ `
+  mutation DeleteLondonPlace(
+    $input: DeleteLondonPlaceInput!
+    $condition: ModellondonPlaceConditionInput
   ) {
-    deleteTalk(input: $input, condition: $condition) {
+    deleteLondonPlace(input: $input, condition: $condition) {
       id
-      clientId
       name
+      address
       description
-      speakerName
-      speakerBio
       createdAt
       updatedAt
     }

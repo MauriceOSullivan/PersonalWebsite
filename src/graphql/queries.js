@@ -1,34 +1,30 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getTalk = /* GraphQL */ `
-  query GetTalk($id: ID!) {
-    getTalk(id: $id) {
+export const getLondonPlace = /* GraphQL */ `
+  query GetLondonPlace($id: ID!) {
+    getLondonPlace(id: $id) {
       id
-      clientId
       name
+      address
       description
-      speakerName
-      speakerBio
       createdAt
       updatedAt
     }
   }
 `;
-export const listTalks = /* GraphQL */ `
-  query ListTalks(
-    $filter: ModelTalkFilterInput
+export const listLondonPlaces = /* GraphQL */ `
+  query ListLondonPlaces(
+    $filter: ModellondonPlaceFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listTalks(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listLondonPlaces(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        clientId
         name
+        address
         description
-        speakerName
-        speakerBio
         createdAt
         updatedAt
       }

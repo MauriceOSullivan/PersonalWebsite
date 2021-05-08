@@ -1,9 +1,13 @@
-type Talk @model {
-  id: ID!
-  clientId: ID
+type londonPlace @model {
   name: String!
+  address: String!
   description: String!
-  speakerName: String!
-  speakerBio: String!
 }
 
+{
+  "name": "London Fields Lido"
+  "address": "London Fields West Side, London E8 3EU"
+  "description": "London Fields Lido"
+  "createdAt":"2021-05-08T03:48:13.600Z"
+  "updatedAt":"2021-05-08T03:48:13.600Z"
+}
