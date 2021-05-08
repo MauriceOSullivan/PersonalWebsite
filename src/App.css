@@ -7,6 +7,11 @@
   font-family: 'Libre Baskerville', serif;
 }
 
+.cardCSS {
+  max-width: 345;
+  height: 140;
+}
+
 .home {
   height: 90vh; 
   align-items:center;
